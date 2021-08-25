@@ -1,0 +1,154 @@
+#enveloppe {
+    width: 1120px;
+    margin: auto;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #000000;
+}
+
+header h1 {
+    border: 1px solid #000000;
+    text-shadow: 1px 3px 3px #27ae60;
+}
+
+header nav {
+    border: 1px solid #000000;
+    width: 100%;
+    margin: 15px;
+    text-align: right;
+}
+header nav li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #000000;
+    background-color: #ecf0f1;
+}
+
+main {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #000000;
+
+}
+
+
+#presentation {
+    width: 30%;
+    margin-right: 15px;
+     
+}
+
+#presentation h2 {
+    text-align: center;
+}
+
+
+#presentation li {
+    width: 80%;
+        
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    list-style: none;
+    border: 1px solid #000000;
+}
+
+#presentation li article p {
+     text-align: right;
+    background: #27ae60;
+    color: #fff
+}    
+
+.enveloppe {
+    width: 900px;
+    margin: auto;
+}
+
+#articles {
+    width: 70%;
+
+}    
+
+#articles ul {
+    display: flex;
+    flex-wrap: wrap;    
+    padding: 0;
+
+}
+
+#articles li {
+    width: 47%;   
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    list-style: none;
+    border: 1px solid #000000;
+    position: relative;
+}
+
+#articles li article p {
+     position: absolute;
+     top: 10px;
+     right: 10px;
+    background: #27ae60;
+    color: #fff
+}    
+
+#articles li article h3 {
+    text-align: center;
+    background: #bdc3c7; 
+    border: 1px;
+}
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #000000;
+}
+footer h2{
+    border: 1px solid black;
+    text-shadow: 1px 3px 3px #27ae60;
+}
+
+footer ul {
+    display: flex;
+    border: 1px solid black;
+    margin: 7px;
+    padding: 10px;
+
+}
+
+footer li {
+    list-style: none;
+    font-size:  16px
+    color: #000;
+    width: 100%;
+}
+#reseaux{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
